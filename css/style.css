@@ -406,6 +406,16 @@ ul.btn li:last-child {
      align-items: center;
 }
 
+
+.sign-in{
+     margin-top: 15%;
+     border:20px;
+     border-radius: 10px;
+     border-color: #0c0c0c;
+     z-index: auto;
+     /* width: 75%; */
+     /* height: 80%; */
+}
 .text-bg {
      text-align: center;
 }
