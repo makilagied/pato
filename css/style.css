@@ -358,11 +358,13 @@ ul.btn li:last-child {
      text-transform: uppercase;
      margin-top: -10px;
      margin-left: 30px;
+     border-radius: 5px;
 }
 
 .get_btn a:hover {
      color: #fff;
      background-color: #d2d1d6;
+     border-radius: 5px;
 }
 
 .header {
@@ -701,12 +703,12 @@ ul.btn li:last-child {
      color: #242323 !important;
 }
 
-.padding_left0 {
-     padding-left: 0;
+.padding1 {
+     padding-left: 10%;
 }
 
-.padding_right0 {
-     padding-right: 0;
+.padding2 {
+     padding-right: 10%;
 }
 
 
@@ -833,6 +835,7 @@ ul.btn li:last-child {
      font-size: 18px;
      font-weight: normal;
      border-bottom: #ddd solid 1px;
+     border-radius: 5px;
 }
 
 .main_form .contactus1 {
@@ -847,19 +850,21 @@ ul.btn li:last-child {
      font-size: 18px;
      font-weight: normal;
      border-bottom: #ddd solid 1px;
+     border-radius: 5px;
 }
 
 .main_form .send_btn {
      font-size: 20px;
      transition: ease-in all 0.5s;
      background-color: #008b51;
-     color: #000;
+     color: rgb(255, 255, 255);
      padding: 16px 0px;
      max-width: 333px;
      font-weight: 700;
      width: 100%;
      display: block;
      margin-top: 11px;
+     border-radius: 5px;
 }
 
 .main_form .send_btn:hover {
@@ -904,6 +909,7 @@ ul.social_icon li a:hover {
      text-align: left;
      color: #fff;
      padding-bottom: 15px;
+     border-radius: 5px;
 }
 
 ul.location_icon {
@@ -980,12 +986,13 @@ ul.link li a::after {
      color: #000;
      font-size: 18px;
      font-weight: 600;
+     border-radius: 5px;
 }
 
 .sub_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #008b51
+     background-color: #008b51;
      color: #fff;
      padding: 11px 0px;
      max-width: 200px;
@@ -994,12 +1001,14 @@ ul.link li a::after {
      font-weight: 500;
      text-transform: uppercase;
      margin-top: 20px;
+     border-radius: 5px;
 }
 
 .sub_btn:hover {
      background-color: #fff;
      transition: ease-in all 0.5s;
      color: #000;
+     border-radius: 5px;
 }
 
 .copyright {
