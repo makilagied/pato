@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>register</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css\bootstrap.css'>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<script src='main.js'></script> 
+</head>
+<body>
+
+        <div class="text-center container-fluid col-xl-12 col-lg-12 col-md-12 col-sm-12">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-lg-9 col-xl-7">
+                <div class="card sign-in" id="form-inline">
+                  <div class="card-body p-4 p-md-5 shadow">
+                    <h3 class=" text-center text-black h1 text-uppercase ">Investors Registration</h3>
+      
+                    <form action="">
+      
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+      
+                          <div class="form-outline">
+                            <input type="text" id="firstName" placeholder="First Name" class="form-control" />
+                            <!-- <label class="form-label"  for="firstName">First Name</label> -->
+                          </div>
+                          
+                        
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+      
+                          <div class="form-outline">
+                            <input type="text" id="midName" placeholder="Middle Name" class="form-control" />
+                            <!-- <label class="form-label"  for="firstName">First Name</label> -->
+                          </div>
+                          
+                        
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+      
+                          <div class="form-outline">
+                            <input type="text" id="lastName" placeholder="last Name" class="form-control" />
+                            <!-- <label class="form-label" for="lastName">Last Name</label> -->
+                          </div>
+      
+                        </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+      
+                          <div class="form-outline datepicker">
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="birthdayDate"
+                              placeholder="Birthday date"
+                            />
+                            <!-- <label for="birthdayDate" class="form-label">Birthday</label> -->
+                          </div>
+      
+                        </div>
+                        <div class="col-md-6 mb-4">
+      
+      
+                          <div class="">
+                            <div class=" form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">male</label>
+                            </div>
+                            <div class=" form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">female</label>
+                            </div>
+                          </div>
+      
+                          <!-- <div class="form-check form-check-inline">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="inlineRadioOptions"
+                              id="otherGender"
+                              value="option3"
+                            />
+                            <label class="form-check-label" for="otherGender">Other</label>
+                          </div> -->
+      
+                        </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+      
+                          <div class="form-outline">
+                            <input type="email" id="emailAddress" placeholder="Email" class="form-control" />
+                            <!-- <label class="form-label" for="emailAddress">Email</label> -->
+                          </div>
+      
+                        </div>
+                        <div class="col-md-6 mb-4">
+      
+                          <div class="form-outline">
+                            <input type="tel" id="phoneNumber" placeholder="Mobile Number" class="form-control" />
+                            <!-- <label class="form-label" for="phoneNumber">Phone Number</label> -->
+                          </div>
+      
+                        </div>
+                        <div class="col-lg-9 mb-4">
+                          <div class="form-floating">
+                            <textarea class="form-control" placeholder="Add bio" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <!-- <label for="floatingTextarea2">Comments</label> -->
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+      
+                          <div class="form-outline">
+                            <input type="password" id="password" placeholder="password" class="form-control" />
+                            <!-- <label class="form-label" for="password">password</label> -->
+                          </div>
+      
+                        </div>
+                        <div class="col-md-6 mb-4">
+      
+                          <div class="form-outline">
+                            <input type="password" id="cpassword" placeholder="confirm password" class="form-control" />
+                            <!-- <label class="form-label" for="cpassword">confirm password</label> -->
+                          </div>
+      
+                        </div>
+                      </div>
+      
+                      <div class="row">
+                        <div class="col-12">
+      
+                          <!-- <h6 class="mb-3">Subject</h6>
+      
+                          <select class="select" multiple>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                            <option value="6">Six</option>
+                            <option value="7">Seven</option>
+                            <option value="8">Eight</option>
+                          </select>
+                          <label class="form-label select-label">Choose option</label> -->
+
+
+                      </div>
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="col-md-6 mb-4">    
+                            <div class="mt-4">
+                              <input class="btn btn-warning btn-lg" type="submit" value="Submit" />
+                            </div>     
+                          </div>
+                      </div>
+      
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+</body>
+</html>

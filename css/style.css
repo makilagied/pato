@@ -406,6 +406,24 @@ ul.btn li:last-child {
      align-items: center;
 }
 
+
+.sign-in{
+     margin-top: 15%;
+     border:20px;
+     border-radius: 10px;
+     border-color: #0c0c0c;
+     z-index: auto;
+     background-color: white;
+     /* width: 75%; */
+     /* height: 80%; */
+}
+.extended{
+     width: 100%;
+     height: 100%;
+     
+     background: radial-gradient(circle at 0 200px, rgb(215, 247, 220),rgb(255, 255, 255));;
+     /* background:linear-gradient(135deg, #c3ec52 0%,#0ba29d 100%); */
+}
 .text-bg {
      text-align: center;
 }
