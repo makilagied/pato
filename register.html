@@ -22,12 +22,12 @@
 </head>
 <body>
 
-        <div class="text-center container-fluid col-xl-12 col-lg-12 col-md-12 col-sm-12">
-          <div class="container">
+        <div class="text-center container-fluid col-xl-12 col-lg-12 col-md-12 col-sm-12 extended">
+          <div class="container ">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-9 col-xl-7">
-                <div class="card sign-in" id="form-inline">
-                  <div class="card-body p-4 p-md-5 shadow">
+                <div class="card sign-in " id="form-inline">
+                  <div class="card-body p-4 p-md-4 shadow">
                     <h3 class=" text-center text-black h1 text-uppercase ">Investors Registration</h3>
       
                     <form action="">
@@ -53,6 +53,10 @@
                         
                         </div>
 
+
+                      </div>
+      
+                      <div class="row" >
                         <div class="col-md-6 mb-4">
       
                           <div class="form-outline">
@@ -61,9 +65,6 @@
                           </div>
       
                         </div>
-                      </div>
-      
-                      <div class="row">
                         <div class="col-md-6 mb-4">
       
                           <div class="form-outline datepicker">
@@ -78,19 +79,9 @@
       
                         </div>
                         <div class="col-md-6 mb-4">
-      
-      
-                          <div class="">
-                            <div class=" form-check-inline">
-                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                              <label class="form-check-label" for="inlineCheckbox1">male</label>
-                            </div>
-                            <div class=" form-check-inline">
-                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                              <label class="form-check-label" for="inlineCheckbox2">female</label>
-                            </div>
-                          </div>
-      
+
+
+
                           <!-- <div class="form-check form-check-inline">
                             <input
                               class="form-check-input"
@@ -104,6 +95,35 @@
       
                         </div>
                       </div>
+                      <div class="row">
+                        <div class="justify-content-center text-center col-md-6 mb-4">
+                          <div class=" ">
+                            <label for="gender" class="form-label">Choose Gender</label>
+                            <div class=" form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">male</label>
+                            </div>
+                            <div class=" form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">female</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="justify-content-center text-center col-md-6 mb-4">
+                          <div class=" ">
+                            <label for="gender" class="form-label">Martial status</label>
+                            <div class=" form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                              <label class="form-check-label" for="inlineCheckbox1">married</label>
+                            </div>
+                            <div class=" form-check-inline">
+                              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                              <label class="form-check-label" for="inlineCheckbox2">single</label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
       
                       <div class="row">
                         <div class="col-md-6 mb-4">
@@ -122,7 +142,7 @@
                           </div>
       
                         </div>
-                        <div class="col-lg-9 mb-4">
+                        <div class="col-lg-12 mb-4">
                           <div class="form-floating">
                             <textarea class="form-control" placeholder="Add bio" id="floatingTextarea2" style="height: 100px"></textarea>
                             <!-- <label for="floatingTextarea2">Comments</label> -->
@@ -146,6 +166,17 @@
                             <!-- <label class="form-label" for="cpassword">confirm password</label> -->
                           </div>
       
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                          <label class="form-check-label" for="invalidCheck">
+                            Agree to terms and conditions
+                          </label>
+                          <div class="invalid-feedback">
+                            You must agree before submitting.
+                          </div>
                         </div>
                       </div>
       
