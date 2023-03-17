@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>register</title>
-    <link rel='stylesheet' type='text/css' media='screen' href='css\bootstrap.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Register</title> 
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='css\bootstrap.css'> -->
     <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- style css -->
@@ -13,6 +15,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- fevicon -->
     <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <script src="/js/bootstrap.bundle.min.js" defer></script> 
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
     <!-- Tweaks for older IEs-->
@@ -20,8 +23,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
 <script src='main.js'></script> 
 </head>
-<body>
-      <header>
+<body class="main-layout">
+ 
+    <header>
     
     <div class="header">
        <div class="container-fluid">
@@ -72,12 +76,16 @@
        </div>
     </div>
  </header>
-
-        <div class="text-center container-fluid col-xl-12 col-lg-12 col-md-12 col-sm-12 extended">
-          <div class="container ">
+ 
+      <div class="text-center container-fluid col-xl-12 col-lg-12 col-md-12 col-sm-12 extended">
+          <div class="container">
             <div class="row justify-content-center">
-              <div class="col-12 col-lg-9 col-xl-7">
+              <!-- <div class="justify-content-center"> -->
+              <!-- <div class="col-lg-12 col-lg-9 col-xl-12"> -->
+                   <!-- <div class="col-xl-7 col-lg-9 " > -->
                 <div class="card sign-in " id="form-inline">
+                  <div class="sign-in " id="form-inline">
+
                   <div class="card-body p-4 p-md-4 shadow">
                     <h3 class=" text-center text-black h1 text-uppercase ">Investors Registration</h3>
       
@@ -169,7 +177,7 @@
                             </div>
                             <div class=" form-check-inline">
                               <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                              <label class="form-check-label" for="inlineCheckbox2">single</label>
+                              <label class="form-check-label" for="inlineCheckbox2">single'</label>
                             </div>
                           </div>
                         </div>
@@ -268,92 +276,103 @@
         </div>
        </div>
       </div>
-<footer id="contact">
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="titlepage">
-                        <h2>Contact Us</h2>
-                     </div>
-                  </div>
-                  <div class="col-md-12">
-                     <form id="request" class="main_form">
-                        <div class="row">
-                           <div class="col-md-3 ">
-                              <input class="contactus" placeholder="Full Name" type="type" name="Full Name"> 
-                           </div>
-                           <div class="col-md-3">
-                              <input class="contactus" placeholder="Email" type="type" name="Email"> 
-                           </div>
-                           <div class="col-md-3">
-                              <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
-                           </div>
-                           <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
-                              <ul class="social_icon">
-                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                 <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                                 <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                              </ul>
-                           </div>
-                           <div class="col-md-8">
-                              <textarea class="contactus1" placeholder="Message" type="type" Message="Name"></textarea>
-                           </div>
-                           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                              <button class="send_btn">Send</button>
-                           </div>
-                        </div>
-                     </form>
-                  </div>
-                  <div class="col-md-3 border_right">
-                     <ul class="location_icon">
-                        <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Locatins</li>
-                        <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a> +71 9087654321</li>
-                        <li><a href="www.patospace2022@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>patospace2022</li>
-                     </ul>
-                  </div>
-                  <div class="col-md-3 border_right">
-                     <h3>Useful Link</h3>
-                     <ul class="link">
-                        <li><a href="#">humour, or </a></li>
-                        <li><a href="#">randomised words </a> </li>
-                        <li><a href="#">which don't look </a></li>
-                        <li><a href="#">even slightly  </a> </li>
-                        <li><a href="#">believable. If   </a></li>
-                     </ul>
-                  </div>
-                  <div class="col-md-3 border_right">
-                     <h3>Menus</h3>
-                     <ul class="link">
+
+      <footer id="contact">
+        <div class="footer">
+           <div class="container">
+              <div class="row">
+                 <div class="col-md-4">
+                    <div class="titlepage">
+                       <h2>Contact Us</h2>
+                    </div>
+                 </div>
+                 <div class="col-md-12">
+                    <form id="request" class="main_form">
+                       <div class="row">
+                          <div class="col-md-3 ">
+                             <input class="contactus" placeholder="Full Name" type="type" name="Full Name"> 
+                          </div>
+                          <div class="col-md-3">
+                             <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                          </div>
+                          <div class="col-md-3">
+                             <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                          </div>
+                          <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+                             <ul class="social_icon">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="https://twitter.com/PatoSpace2?t=x3U5COBgivHGoustWfWCtQ&s=08"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li> -->
+                                <li><a href="https://instagram.com/patospace_101?igshid=ZDdkNTZiNTM="><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                             </ul>
+                          </div>
+                          <div class="col-md-8">
+                             <textarea class="contactus1" placeholder="Message" type="type" Message="Name"></textarea>
+                          </div>
+                          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                             <button class="send_btn">Send</button>
+                          </div>
+                          
+                       </div>
+                    </form>
+                 </div>
+                 
+                  <div class="col-md-4 border_right">
+                    <ul class="location_icon">
+                       <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Locatins</li>
+                       <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a> +71 9087654321</li>
+                       <li><a href="www.patospace2022@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>patospace2022</li>
+                    </ul>
+                 </div>
+                 <!-- <div class="col-md-3 border_right">
+                    <h3>Useful Link</h3>
+                    <ul class="link">
+                       <li><a href="#">humour, or </a></li>
+                       <li><a href="#">randomised words </a> </li>
+                       <li><a href="#">which don't look </a></li>
+                       <li><a href="#">even slightly  </a> </li>
+                       <li><a href="#">believable. If   </a></li>
+                    </ul>
+                 </div> -->
+                 <div class="col-md-4 border_right">
+                    <h3>Menus</h3>
+                    <ul class="link">
 <li><a href="index.html">Home</a></li>                             
 <li><a href="about.html">About</a></li>                                                     
-<li><a href="investment.html">investment</a></li>                             
+<li><a href="investment.html">investments</a></li>                             
 <li><a href="blog.html">Blog</a></li>
 <li><a href="contact.html">Contact</a></li>
-                     </ul>
-                  </div>
-                  <div class="col-md-3">
-                     <form class="bottom_form">
-                        <h3>Newsletter</h3>
-                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
-                        <button class="sub_btn">subscribe</button>
-                     </form>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <!-- <p>Copyright 2019 All Right Reserved By <a href="https://html.design/"> Free  html Templates</a></p> -->
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-
-                    
-</body>
+                    </ul>
+                 </div>
+                 <div class="col-md-4">
+                    <form class="bottom_form">
+                       <h3>Newsletter</h3>
+                       <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                       <button class="sub_btn">subscribe</button>
+                    </form>
+                 </div>
+              </div>
+           </div>
+           <div class="copyright">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-md-12">
+                       <!-- <p>Copyright 2019 All Right Reserved By <a href="https://html.design/"> Free  html Templates</a></p> -->
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </footer>
+     <!-- end footer -->
+     <!-- Javascript files-->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/popper.min.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/jquery-3.0.0.min.js"></script>
+     <!-- sidebar -->
+     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+     <script src="js/custom.js"></script>
+  </body>
 </html>
+
