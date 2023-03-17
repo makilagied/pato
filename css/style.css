@@ -412,11 +412,11 @@ ul.btn li:last-child {
 
 
 .sign-in{
-     margin-top: 15%;
+     margin-top: 7%;
      border:20px;
      border-radius: 10px;
      border-color: #0c0c0c;
-     z-index: auto;
+     z-index: 999px;
      background-color: white;
      /* width: 75%; */
      /* height: 80%; */
@@ -434,6 +434,8 @@ ul.btn li:last-child {
 
 .text-bg h1 {
      text-transform: uppercase;
+     /* text-decoration: black; */
+     text-shadow: #090807;
      color: #fff;
      font-size: 110px;
      line-height: 120px;
@@ -443,7 +445,10 @@ ul.btn li:last-child {
 
 .text-bg p {
      font-size: 17px;
-     color: #fff;
+     /* font-display:g ; */
+     text-shadow: #090807;
+     /* text-emphasis: 10px; */
+     color: #ffffff;
      line-height: 28px;
      font-weight: 500;
      padding-bottom: 50px;
@@ -452,7 +457,7 @@ ul.btn li:last-child {
 
 .text-bg a {
      font-size: 17px;
-     background-color: transparent;
+     background-color: #1a1818c9;
      color: #fff;
      font-weight: 600;
      padding: 11px 0px;
@@ -466,7 +471,7 @@ ul.btn li:last-child {
 }
 
 .text-bg a:hover {
-     background-color: #13110e;
+     background-color: #a7a6a5;
      color: #fff;
      transition: ease-in all 0.5s;
 }
