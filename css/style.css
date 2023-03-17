@@ -446,7 +446,7 @@ ul.btn li:last-child {
 
 .text-bg p {
      font-size: 17px;
-     color: #fff;
+     color: #000000;
      line-height: 28px;
      font-weight: bold;
      padding-bottom: 50px;
@@ -456,7 +456,7 @@ ul.btn li:last-child {
 .text-bg a {
      font-size: 17px;
      background-color: transparent;
-     color: #fff;
+     color: #000000;
      font-weight: bold;
      padding: 11px 0px;
      width: 100%;
@@ -464,12 +464,13 @@ ul.btn li:last-child {
      text-align: center;
      display: inline-block;
      border-radius: 30px;
-     border: #000000 solid 4px;
+     border: #ffffff solid 4px;
      transition: ease-in all 0.5s;
 }
 
 .text-bg a:hover {
      background-color: #008b51;
+     text-transform: uppercase;
      color: #fff;
      transition: ease-in all 0.5s;
 }
